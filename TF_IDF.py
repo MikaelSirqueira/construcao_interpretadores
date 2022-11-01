@@ -1,3 +1,9 @@
+"""
+Sua  tarefa  será  gerar  a  matriz  termo-documento  usando  TF-IDF  por  meio  da  aplicação  das 
+fórmulas TF-IDF na matriz termo-documento criada com a utilização do algoritmo Bag of Words. Sobre 
+o Corpus que recuperamos anteriormente.
+"""
+
 def createTF_IDF(linhaTermoDoc, lista, vocabulary, numberDoc):
   finalMatrix = []
   for termo in linhaTermoDoc:
